@@ -21,6 +21,8 @@ public class AccountTests {
                 Arguments.of(" ", false),
                 Arguments.of(" Тимоти Шаламе", false),
                 Arguments.of("Тимоти Шаламе ", false),
+                Arguments.of("  Тимоти Шаламе", false),
+                Arguments.of("Тимоти Шаламе  ", false),
                 Arguments.of(null , false)
 
         );
