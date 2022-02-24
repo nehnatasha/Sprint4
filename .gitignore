@@ -1,0 +1,9 @@
+/shelf/
+/.idea/workspace.xml
+/../../../:\Sprint4\.idea/
+*.class
+*.iml
+.idea/
+target/
+.allure/
+allure-results/
